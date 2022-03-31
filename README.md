@@ -110,6 +110,7 @@ k : key
 >>> $a==0 >>>  : if jump
 ### : sub routine
 $ : input
+@ : function
 
 サブルーチンとして呼び出した場合は、
 ジャンプに来ると、呼び出し先にもどる。
