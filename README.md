@@ -10,6 +10,17 @@ dryad is game engine
 +-------------+      +--------------+
 ```
 
+### view
+```
+view
+    .hint
+    .message
+    .select
+    .background
+    .image
+    .dungeon
+    .clear
+```
 ```
 +-----------------------------------+
 |            * hint *               |
