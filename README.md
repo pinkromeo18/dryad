@@ -107,10 +107,12 @@ var obj=parse(temp);
 >>> : jump
 >>> $a==0 >>>  : if jump
 ### : sub routine
-$ : input
-@ : function
+$,$0...$9 : input
+@ : function return value is $name
 @k : key
 --- aaa --- : multi string
+---js console.log($) --- : javascript world
+
 ```
 
 ```
