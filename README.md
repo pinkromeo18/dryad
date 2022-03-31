@@ -70,3 +70,36 @@ view
 +-----------------------------------+
 
 ```
+
+
+### data reader
+```
+
+var temp=`
+[aiuewo]
+a=---
+multi string 1
+multi string 2
+multi string 3
+-----
+b=1
+c=2
+d="a"
+
+`;
+
+var obj=parse(temp);
+{
+ aiuewo:{
+  a:"multi...\n...\n...\n",
+  b:1,
+  c:2,
+  d:"a"
+ }
+}
+
+
+```
+
+
+
