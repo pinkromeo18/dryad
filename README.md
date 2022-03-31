@@ -105,7 +105,7 @@ var obj=parse(temp);
 ```
 # : mark
 >>> : jump
->>> $a==0 >>>  : if jump
+>>> $0==0 >>>  : if jump
 ### : sub routine
 $,$0...$9 : input
 @ : function return value is $name
