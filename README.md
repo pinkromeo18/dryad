@@ -103,15 +103,17 @@ var obj=parse(temp);
 
 ### interpreter
 ```
-
 # : mark
 >>> : jump
-k : key
 >>> $a==0 >>>  : if jump
 ### : sub routine
 $ : input
 @ : function
+@k : key
+--- aaa --- : multi string
+```
 
+```
 サブルーチンとして呼び出した場合は、
 ジャンプに来ると、呼び出し先にもどる。
 その場合は、###を指定する。
