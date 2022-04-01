@@ -39,12 +39,11 @@ function multi(line){
 function flg(line){
   //%data 
   //%data 0
-  const re_del =/ 0/,cep=' '
+  const re_del =/ 0/,cep=' ',isdel=re_del.test(line)
   const {next} = get()
   var {flgs} = get()
   line = line.replace('%','').replace('0','').trim()
-  
-  if(re_del.test(line)) delete flgs[line] //<--------------------
+  if(isdel) delete flgs[line] //<--------------------
   else flgs[line] = 1
   next();
 }
