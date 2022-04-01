@@ -134,6 +134,14 @@ aaa
 
 
 
+```js
+import {dryad,get,reg} from "https://pinkromeo18.github.io/dryad/dryad.js"
+var re,fn;
+reg({re,fn})
+
+await dryad.run(temp)
+
+```
 
 
 
